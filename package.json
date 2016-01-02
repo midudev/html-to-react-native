@@ -1,0 +1,35 @@
+{
+  "name": "html-to-react-native",
+  "version": "1.0.0",
+  "description": "Transform HTML to a well formatted React Native JSX Code",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miduga/html-to-react-native.git"
+  },
+  "keywords": [
+    "text",
+    "react",
+    "native",
+    "parse",
+    "html"
+  ],
+  "author": "Miguel Ángel Durán <miguel@miduga.es> (http://miduga.es)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miduga/html-to-react-native/issues"
+  },
+  "homepage": "https://github.com/miduga/html-to-react-native#readme",
+  "dependencies": {
+    "htmlparser": "^1.7.7",
+    "react-native": "^0.11.0",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.2.2"
+  },
+  "peerDependencies": {
+    "react-native": "^0.11.0"
+  }
+}
